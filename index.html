@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>ShopWithUs</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="/stylesheets/main.css">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    
+    <body>
+      
+      	<nav class="navbar navbar-inverse ">
+		<div class="container">
+			<div class="navbar-header"></div>
+				<a href="/" class =" navbar-brand">Shopfify</a>
+     		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a href="#">What's New</a></li>
+				</ul>
+				
+
+				<ul class="nav navbar-nav navbar-right">
+					<!-- <%	if(!currentUser){ %> -->
+						<li><a href="/">Sign Up</a></li>
+						<li><a href="/">Login</a></li>
+					<!-- <% } else {  %> -->
+						<!-- <li><a href="#">Hi <%=currentUser.username%> !  </a></li> -->
+						<li><a href="/">Logout</a></li>
+					<!-- <%	}	%> -->
+					
+					
+				</ul>
+			</div>
+		</div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-sm-12 col-xs-12" >
+                <div class="thumbnail main">
+                    <img src="images/aata.jpg">
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12 details" >
+                <!-- <div class="container"> -->
+                    <h3>
+                        Aashirvaad Atta - Whole Wheat, 10 Kg
+                    </h3>
+                    <p>
+                        <strong>Rs 339 </strong>
+                    </p>
+                    <p><i>Pack Sizes</i></p>
+                    <button class="btn" id="bsize-btn" style="margin-right: 30px;margin-top: 30px;margin-bottom: 30px;">
+                        <p>10 Kg </p>
+                        <p>Rs 399</p>
+                    </button>
+                    <button class="btn btn-success"  id="ssize-btn">
+                        <p>5 Kg </p>
+                        <p>Rs 209</p>
+                    </button>
+                    
+                    <div>
+                        <p><i>QUANTITY</i></p>
+                    </div>
+                    
+                    <div class="btn" id="quant-inc">
+                        <button class="btn btn-sm r" id="less">-</button>
+                        <span id="quant">
+                            1
+                        </span>
+                        <button class="btn btn-sm" id="more">+</button>
+                    </div>
+                    <div>
+                        <button class="btn btn-primary" id="pay">
+                            Payable</button> = 
+                        <span id="display-score" style="color : green;">Rs 209</span>
+                    </div>
+                    
+                    <!-- <div>
+                        <p>Amount Payable : </p>
+                    </div> -->
+                <!-- </div> -->
+                    
+            </div>
+
+            </div>
+          </div>
+    </div>
+    
+    <div class="container" style="padding-top : 30px">
+        <div class="row text-center" >
+            <div class="col-md-6 col-sm-12">
+                <div class="thumbnail">
+                    <img src="images/royal-spices.jpg" name="Main ">
+                    <div class="caption">
+                        <h4>Masalas,Spices & Cooking Paste</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="row">
+                    
+                    <div class="col-md-6 col-sm-6 col-xs-6" >
+                        <div class="thumbnail format-img" >
+                            <img src="images/low-grid-aata.jpg" >
+                            <div class="caption">
+                                <h4>Atta & Flour</h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <div class="thumbnail format-img" >
+                            <img src="images/rice-prod.jpg" >
+                            <div class="caption">
+                                <h4>Rice & Rice Products</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <div class="thumbnail format-img" >
+                            <img src="images/dal-tata.jpg">
+                            <div class="caption">
+                                <h4>Dals & Pulses</h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <div class="thumbnail format-img" >
+                            <img src="images/fortune-oil.jpg">
+                            <div class="caption">
+                                <h4>Cooking Oils</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+    <script src="./app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>

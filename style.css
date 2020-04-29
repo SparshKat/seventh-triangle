@@ -1,0 +1,39 @@
+.format-img img {
+    height: 205px;
+    /* length : 00px; */
+    width:100%;
+}
+
+.btn {
+    /* font-family: Raleway-SemiBold; */
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.btn-primary {
+    font-family: Raleway-SemiBold;
+    font-size: 13px;
+    color: rgba(58, 133, 191, 0.75);
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid rgba(58, 133, 191, 0.75);
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+    
+  }
+  
+#quant-inc{
+    margin-bottom : 20px;
+    border: 2px solid rgba(201, 200, 207, 0.75);
+    color: rgba(93, 91, 99, 1);
+    border-radius: 40px;
+    padding : 5px 5px;
+    /* color: rgba(58, 133, 191, 0.75); */
+    /* letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid rgba(58, 133, 191, 0.75);
+    border-radius: 40px;
+    float : left;
+    background: transparent; */
+}
